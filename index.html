@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark-Sheet Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <h1>Mark-Sheet Calculator</h1>
+    <table>
+        <tr>
+            <td>Computer Fundamental MS OFFice</td>
+            <td><input type="number" id="Computer Fundamental MS OFFice" min="0" max="100" value="0"></td>
+        </tr>
+        <tr>
+            <td>C Programming</td>
+            <td><input type="number" id="C Programming" min="0" max="100" value="0"></td>
+        </tr>
+        <tr>
+            <td>Mathematics</td>
+            <td><input type="number" id="Mathmatics" min="0" max="100" value="0"></td>
+        </tr>
+        <tr>
+            <td>HTML,CSS,XML,</td>
+            <td><input type="number" id="HTML,CSS,XML," min="0" max="100" value="0"></td>
+        </tr>
+        <tr>
+            <td>Bussiness Communication</td>
+            <td><input type="number" id="Bussiness Comunication" min="0" max="100" value="0"></td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td><input type="text" id="total" readonly></td>
+        </tr>
+        <tr>
+            <td>Percentage</td>
+            <td><input type="text" id="percentage" readonly></td>
+        </tr>
+        <tr>
+            <td>Grade</td>
+            <td><input type="text" id="grade" readonly></td>
+        </tr>
+    </table>
+    <button onclick="calculateMarks()">Calculate</button>
+</body>
+</html>
